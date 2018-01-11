@@ -1,0 +1,178 @@
+
+@import 'https://fonts.googleapis.com/css?family=Raleway|Montserrat';
+
+html,body{
+     font-family: Raleway, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+     font-family: 'Monserrat', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    text-shadow: 1px 2px 1px #ccc;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.bg-lgreen {
+    background-color: #EAF2CA;
+}
+
+.bg-vgreen {
+    background-color: #AECE3C;
+}
+
+.bg-dgreen {
+    background-color: #67A838;
+}
+
+.bg-cblue {
+    background-color: #3A7992;
+}
+.bg-darker{
+    background-color: #0C2732
+}
+.br-cblue{
+    border-color: #3A7992;
+     color:white;
+         background-color: #3A7992;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #0C2732;
+}
+
+.margin-right-auto {
+    margin-right: auto;
+}
+
+main {
+    margin-bottom: 166px;
+}
+
+.search-button {
+    color: #0C2732;
+    background-color: #fff;
+    border-color: #0C2732;
+}
+
+.no-pads {
+    padding: 0;
+}
+
+#myFooter {
+    background-color: #0C2732;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#myFooter .footer-copyright {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .myCols {
+    text-align: center;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+.brand-logo {
+    width: 30px;
+    height: 30px;
+}
+
+p.card-block {
+    padding: 10px;
+}
+
+img.card-img-top:hover {
+    transform: rotate3d(0, 1, 0, 360deg);
+    transition: transform 3s;
+}
+img.full{
+        position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+strong {
+    font-weight: 900;
+}
+
+
+.pad-top-5rem{
+    padding-top: 5rem;
+}
+.input-group-addon{
+        font-size: 2rem;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
